@@ -6,6 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestContext;
@@ -101,8 +102,14 @@ public class CommonApi {
     public void init(String browserName, String os){
         if(os.equalsIgnoreCase("windows")) {
             if (browserName.equalsIgnoreCase("chrome")) {
+                ChromeOptions chromeOptions=new ChromeOptions();
                 System.setProperty("webdriver.chrome.driver", path);
-                driver = new ChromeDriver();
+                chromeOptions.addArguments("--headless");
+              chromeOptions.addArguments("--window-size=1920x1080");
+             chromeOptions.addArguments("--disable-gpu");
+             chromeOptions.addArguments("--no-sandbox");
+             chromeOptions.addArguments("--allow-insecure-localhost");
+                driver = new ChromeDriver(chromeOptions);
             } else if (browserName.equalsIgnoreCase("firefox")) {
                 System.setProperty("webdriver.gecko.driver", firefoxPath);
                 driver = new FirefoxDriver();

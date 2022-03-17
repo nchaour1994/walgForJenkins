@@ -20,10 +20,10 @@ public class SignInPage {
     WebElement signInBtn;
 
     public void typeOnUsername(){
-        username.sendKeys("john1899@gmail.com");
+        username.sendKeys("john1897@gmail.com");
     }
     public void typeOnPassword(){
-        password.sendKeys("John1899test");
+        password.sendKeys("John1897test");
     }
     public void clickOnSignInBtn(){
         signInBtn.click();

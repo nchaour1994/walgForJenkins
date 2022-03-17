@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [test login]">
+  <parameter name="os" value="windows"/>
+  <parameter name="browserName" value="chrome"/>
+  <test name="test(failed)">
+    <classes>
+      <class name="login.TestLogin">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- login.TestLogin -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [test login] -->

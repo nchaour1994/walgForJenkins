@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\nchao\IdeaProjects\walTestFinal\walg\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="test login" duration-ms="18143" started-at="2022-03-16T22:31:28Z" finished-at="2022-03-16T22:31:46Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="18143" started-at="2022-03-16T22:31:28Z" finished-at="2022-03-16T22:31:46Z">
+      <class name="login.TestLogin">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:login.TestLogin@5419f379]" name="extentSetup" is-config="true" duration-ms="149" started-at="2022-03-16T18:31:28Z" finished-at="2022-03-16T18:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4102b1b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\nchao\IdeaProjects\walTestFinal\walg\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:login.TestLogin@5419f379]" name="init" is-config="true" duration-ms="9000" started-at="2022-03-16T18:31:28Z" finished-at="2022-03-16T18:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:login.TestLogin@5419f379]" name="startExtent" is-config="true" duration-ms="5" started-at="2022-03-16T18:31:37Z" finished-at="2022-03-16T18:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.TestLogin.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:login.TestLogin@5419f379]" name="testLogin" duration-ms="8022" started-at="2022-03-16T18:31:37Z" finished-at="2022-03-16T18:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:login.TestLogin@5419f379]" name="afterEachTestMethod" is-config="true" duration-ms="1106" started-at="2022-03-16T18:31:45Z" finished-at="2022-03-16T18:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLogin.testLogin()[pri:0, instance:login.TestLogin@5419f379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:login.TestLogin@5419f379]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-03-16T18:31:46Z" finished-at="2022-03-16T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:login.TestLogin@5419f379]" name="generateReport" is-config="true" duration-ms="30" started-at="2022-03-16T18:31:46Z" finished-at="2022-03-16T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- login.TestLogin -->
+    </test> <!-- test -->
+  </suite> <!-- test login -->
+</testng-results>

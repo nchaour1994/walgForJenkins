@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test login" parallel="false">
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+    <test name="test">
+        <classes>
+            <class name="login.TestLogin"></class>
+        </classes>
+    </test>
+
+
+</suite>
